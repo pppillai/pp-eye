@@ -26,4 +26,4 @@
 
     * Run Report
         * ![Start Service](../screenshots/docker_run_1.png)
-        * ![Test Service](../screenshots/docker_run_1.png)
+        * ![Test Service](../screenshots/docker_run_2.png)
