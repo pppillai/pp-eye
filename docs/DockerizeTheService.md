@@ -7,7 +7,7 @@
 * Steps:
     * Create a new directory say pp-op-assign.
     * Copy the hello servie binary to the directory.
-    * Create a docker file Dockerfile. - ![Dockerizefile](../Dockerfile)
+    * Create a docker file Dockerfile. - [Dockerfile](../Dockerfile)
     * Run the following docker command:
         > $ docker build -t hellobinaryfinal:0.0.1 .
     * This will create the image in local repository.
