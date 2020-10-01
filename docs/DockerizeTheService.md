@@ -2,11 +2,11 @@
 
 * Given:
     * hello service default exposed port is 8080.
-    * hello service accepts option -addr :<port>
+    * hello service accepts option -addr :anyport
 
 * Steps:
     * Create a new directory say pp-op-assign.
-    * Copy the hello servie binary to the directory.
+    * Copy the hello service binary to the directory.
     * Create a docker file Dockerfile. - [Dockerfile](../Dockerfile)
     * Run the following docker command:
         > $ docker build -t hellobinaryfinal:0.0.1 .
@@ -24,3 +24,6 @@
     * Verify the container is running.
         > $ docker container ls
 
+    * Run Report
+        * [Start Service](../screenshots/docker_run_1.png)
+        * [Test Service](../screenshots/docker_run_1.png)
