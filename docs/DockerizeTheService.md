@@ -7,7 +7,7 @@
 * Steps:
     * Create a new directory say pp-op-assign.
     * Copy the hello service binary to the directory.
-    * Create a docker file Dockerfile. - [Dockerfile](../Dockerfile)
+    * Create a docker file Dockerfile. [Dockerfile](../Dockerfile)
     * Run the following docker command:
         > $ docker build -t hellobinaryfinal:0.0.1 .
     * This will create the image in local repository.
@@ -25,5 +25,5 @@
         > $ docker container ls
 
     * Run Report
-        * [Start Service](../screenshots/docker_run_1.png)
-        * [Test Service](../screenshots/docker_run_1.png)
+        * ![Start Service](../screenshots/docker_run_1.png)
+        * ![Test Service](../screenshots/docker_run_1.png)
