@@ -86,3 +86,5 @@
     * To get info on all components
         > $ kubectl get all -o wide
 
+
+[HomePage](../README.md)
