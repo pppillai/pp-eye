@@ -9,10 +9,13 @@ docker, kubernetes, python, go &amp; readme
 * Solution:
     > *all solution described are run on macOS Catalina(Darwin) 10.15.6*
 
-- [Dockerize the service](/docs/DockerizeTheService.md)
-- [Prepare Kubernetes cluster](/docs/PrepareKubernetes.md)
-- [Run queries against the service](/docs/RunReport.md)
 - [TL;DR](/docs/TLDR.md)
+
+- [Dockerize the service](/docs/DockerizeTheService.md)
+
+- [Prepare Kubernetes cluster](/docs/PrepareKubernetes.md)
+
+- [Run queries against the service](/docs/RunReport.md)
 
 - Cli
     - devops task: python-cli
