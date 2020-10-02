@@ -12,6 +12,7 @@ docker, kubernetes, python, go &amp; readme
 - [Dockerize the service](/docs/DockerizeTheService.md)
 - [Prepare Kubernetes cluster](/docs/PrepareKubernetes.md)
 - [Run queries against the service](/docs/RunReport.md)
+- [TL;DR](/docs/TLDR.md)
 
 - Cli
     - devops task: python-cli
