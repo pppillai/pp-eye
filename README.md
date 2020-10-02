@@ -18,6 +18,6 @@ docker, kubernetes, python, go &amp; readme
 - [Run queries against the service](/docs/RunReport.md)
 
 - Cli
-    - devops task: python-cli
-    - dev task: go-cli
+    - devops task: [python-cli](/docs/PythonCli.md)
+    - dev task: [go-cli](/docs/GoCli.md)
     - qa task: checkout repo ppillai/armageddon
