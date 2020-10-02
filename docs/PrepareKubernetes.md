@@ -44,7 +44,7 @@
 * At this point there are only kubenetes created images.
     > exit
 
-* switch to docker on minikube cluster node.
+* Switch to docker on minikube cluster node.
     > $ eval $(minikube docker-env)
 * Create the docker image for the hello svc with minikube docker context.
     > docker  build -t hellosv:1.0 .
@@ -81,7 +81,7 @@
         > $ kubectl get pods
 
 * Deploy
-    * apply the config file to create the pod(pod_for_hello_binary.yaml)
+    * Apply the config file to create the pod and service
         > $ kubectl apply -f configs/
     * To get info on all components
         > $ kubectl get all -o wide

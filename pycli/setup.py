@@ -11,6 +11,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        greet=pycli:greet
+        hello=pycli:hello
     ''',
 )

@@ -7,7 +7,7 @@ SUCCESS_COLOR="green"
 
 @click.command()
 @click.argument('name', required=False)
-def greet(name):
+def hello(name):
 
     # hardcoded environment variables
     cluster_ip = os.environ.get("KUBECLUSTERIP")
