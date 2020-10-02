@@ -1,6 +1,5 @@
 # Quick Setup and Run
 
-## Quick Setup
 * Start cluster
     > $ minikube start --driver=virtualbox
 * Switch to docker on minikube cluster node.
