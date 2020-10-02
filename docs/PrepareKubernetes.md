@@ -53,7 +53,7 @@
 
 ## Prepare the pod and svc deployment yaml files.
 - [pod](../configs/hello_svc_pod_deployment.yaml)
-- [service](../config/hello_svc_deployment.yaml)
+- [service](../configs/hello_svc_deployment.yaml)
 
 ## Deploy the container on pod and expose it.
 
