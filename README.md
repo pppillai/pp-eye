@@ -21,4 +21,4 @@ docker, kubernetes, python, go &amp; readme
 - Cli
     - devops task: [python-cli](/docs/PythonCli.md)
     - dev task: [go-cli](/docs/GoCli.md)
-    - qa task: checkout repo ppillai/armageddon
+    - qa task: [armageddon](https://github.com/pppillai/armageddon)
