@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: hello-svc-pod
+        labels:
+            app: hello_svc
+spec:
+    containers:
+        - name: hello-svc-container
+          image: hellosvc:1.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+
