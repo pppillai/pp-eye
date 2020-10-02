@@ -3,7 +3,7 @@
 * Run the following command to get the ip.
     > $ minikube ip
 
-    > ![clusterip](../screenshots/MinikubeIp.png)
+    > ![clusterip](../screenshots/MiniKubeIp.png)
 
 * Run the following command to get info on all kubernetes component. 
     > $ kubectl get all -o wide
