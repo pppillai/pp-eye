@@ -1,6 +1,7 @@
 # pp-eye
 docker, kubernetes, python, go &amp; readme
 * "pp-eye" project shows an approach to dockerize and deploy a service on kubernetes cluster.
+* cli written in golang and python
 
 * Given:
     * hello service default exposed port is 8080.
