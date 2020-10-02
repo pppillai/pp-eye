@@ -8,8 +8,8 @@ SUCCESS_COLOR="green"
 @click.command()
 @click.argument('name', required=False)
 def greet(name):
-    """
-    """
+
+    # hardcoded environment variables
     cluster_ip = os.environ.get("KUBECLUSTERIP")
     cluster_port = os.environ.get("NODEPORTPORT")
 
@@ -21,11 +21,17 @@ def greet(name):
         click.secho("NODEPORTPORT environment varibale not set",
         fg=ERROR_COLOR, bold=True)
         return 1
+    
     if name is not None:
         url = f"http://{cluster_ip}:{cluster_port}/{name}"
     else:
         url = f"http://{cluster_ip}:{cluster_port}"
-        
-    resp = requests.get(url)
-    click.secho(resp.text, fg=SUCCESS_COLOR, bold=False)
+
+    # do the call    
+    try:
+        resp = requests.get(url)
+        click.secho(resp.text, fg=SUCCESS_COLOR, bold=False)
+    except Exception:
+        click.secho(Exception, fg=ERROR_COLOR, bold=True)
+
     return 0

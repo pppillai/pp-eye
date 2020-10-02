@@ -3,6 +3,7 @@ from setuptools import setup
 setup(
     name='pycli',
     version='1.0',
+    author='pradeep',
     py_modules=['pycli'],
     install_requires=[
         'Click',
