@@ -22,3 +22,9 @@ docker, kubernetes, python, go &amp; readme
     - devops task: [python-cli](/docs/PythonCli.md)
     - dev task: [go-cli](/docs/GoCli.md)
     - qa task: [armageddon](https://github.com/pppillai/armageddon)
+
+- CodeFile Links
+    - [pod yaml](/configs/hello_svc_pod_deployment.yaml)
+    - [service yaml](/configs/hello_svc_deployment.yaml)
+    - [pycli](/pycli/pycli.py)
+    - [gocli](/gocli/hello.go)
