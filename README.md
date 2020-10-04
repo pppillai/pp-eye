@@ -6,6 +6,7 @@ docker, kubernetes, python, go &amp; readme
 * Given:
     * hello service default exposed port is 8080.
     * hello service accepts option -addr :portnumber
+    * hello service accepts a single argument for get call and returns the "Hi there, <arg>!"
 
 * Solution:
     > *all solution described are run on macOS Catalina(Darwin) 10.15.6*
