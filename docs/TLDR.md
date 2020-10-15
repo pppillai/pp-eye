@@ -7,7 +7,7 @@
     > $ eval $(minikube docker-env)
 
 * Create the docker image for the hello svc with minikube docker context.
-    > docker  build -t hellosv:1.0 .
+    > docker  build -t hellosvc:1.0 .
 
 * Deploy
     
